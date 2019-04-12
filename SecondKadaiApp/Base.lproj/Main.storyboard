@@ -72,13 +72,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="75W-9f-1SA">
-                                <rect key="frame" x="80" y="150" width="215" height="36"/>
+                                <rect key="frame" x="50" y="150" width="275" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHr-sg-LUS">
-                                <rect key="frame" x="80" y="216" width="215" height="42"/>
+                                <rect key="frame" x="162" y="216" width="51" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -88,16 +88,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="75W-9f-1SA" firstAttribute="leading" secondItem="wEa-QN-o6l" secondAttribute="leading" constant="50" id="22c-M4-HfC"/>
-                            <constraint firstItem="75W-9f-1SA" firstAttribute="top" secondItem="wEa-QN-o6l" secondAttribute="top" constant="30" id="2iS-U1-TGC"/>
-                            <constraint firstItem="wEa-QN-o6l" firstAttribute="trailing" secondItem="HHr-sg-LUS" secondAttribute="trailing" constant="80" id="KKs-WM-3rm"/>
-                            <constraint firstItem="HHr-sg-LUS" firstAttribute="leading" secondItem="wEa-QN-o6l" secondAttribute="leading" constant="80" id="WCa-ro-WvE"/>
-                            <constraint firstItem="75W-9f-1SA" firstAttribute="leading" secondItem="wEa-QN-o6l" secondAttribute="leading" constant="80" id="aVL-tH-H1H"/>
-                            <constraint firstItem="wEa-QN-o6l" firstAttribute="trailing" secondItem="75W-9f-1SA" secondAttribute="trailing" constant="50" id="eUS-fJ-Fql"/>
-                            <constraint firstItem="HHr-sg-LUS" firstAttribute="centerX" secondItem="75W-9f-1SA" secondAttribute="centerX" id="fgl-Hp-UWf"/>
-                            <constraint firstItem="HHr-sg-LUS" firstAttribute="top" secondItem="75W-9f-1SA" secondAttribute="bottom" constant="30" id="fiJ-dX-vet"/>
-                            <constraint firstItem="75W-9f-1SA" firstAttribute="top" secondItem="wEa-QN-o6l" secondAttribute="top" constant="130" id="pDT-P2-yms"/>
-                            <constraint firstItem="wEa-QN-o6l" firstAttribute="trailing" secondItem="75W-9f-1SA" secondAttribute="trailing" constant="80" id="qUW-Ni-Vs8"/>
+                            <constraint firstItem="75W-9f-1SA" firstAttribute="top" secondItem="wEa-QN-o6l" secondAttribute="top" constant="130" id="BQ1-Eb-BrY"/>
+                            <constraint firstItem="75W-9f-1SA" firstAttribute="leading" secondItem="wEa-QN-o6l" secondAttribute="leading" constant="50" id="Fea-s6-Rx8"/>
+                            <constraint firstItem="HHr-sg-LUS" firstAttribute="centerX" secondItem="75W-9f-1SA" secondAttribute="centerX" id="MSD-pM-hyZ"/>
+                            <constraint firstItem="wEa-QN-o6l" firstAttribute="trailing" secondItem="75W-9f-1SA" secondAttribute="trailing" constant="50" id="fSB-hn-W5e"/>
+                            <constraint firstItem="HHr-sg-LUS" firstAttribute="top" secondItem="75W-9f-1SA" secondAttribute="bottom" constant="30" id="o1G-FW-Qhe"/>
+                            <constraint firstItem="wEa-QN-o6l" firstAttribute="trailing" secondItem="HHr-sg-LUS" secondAttribute="trailing" constant="162" id="pJq-4X-88r"/>
+                            <constraint firstItem="HHr-sg-LUS" firstAttribute="leading" secondItem="wEa-QN-o6l" secondAttribute="leading" constant="162" id="r9q-us-RZ5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wEa-QN-o6l"/>
                     </view>
@@ -108,7 +105,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQC-v0-40C" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="2NM-sr-TkW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="854" y="32"/>
+            <point key="canvasLocation" x="853.60000000000002" y="31.934032983508249"/>
         </scene>
     </scenes>
 </document>
